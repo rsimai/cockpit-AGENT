@@ -5,6 +5,8 @@ This document provides a technical overview for applications or plugins that int
 ## Project Structure
 
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Framework**: [React](https://react.dev/)
+- **API**: [Developer Guide](https://cockpit-project.org/guide/latest/development)
 
 ## Key Scripts
 
@@ -12,13 +14,15 @@ This document provides a technical overview for applications or plugins that int
 - `npm run eslint:fix`: automatically fix violations of some code style rules.
 - `npm run stylelint`: check CSS style in .css and scss files.
 - `npm run stylelint:fix`: automatically fix violations of some style rules.
-- `make devel-install`: link the dist directory to your home to make the application appear for the user
-- `make install`: install the application system wide in /usr/local/share/cockpit/
+- `npm run build`: build the files and add them to the dist folder.
+- `make`: check if the project setup is correct.
+- `make devel-install`: link the dist directory to ~/.local/share/cockpit to make the application appear for the user
+- `make install`: install the application files from dist system wide in /usr/local/share/cockpit/
 
 ## Architectural Notes
 
-- All strings should be appropriately prefixed for translations
-- The application follows the Cockpit coding standard and consequently uses React and patternfly 6.
+- All user visible strings should be appropriately prefixed for translations
+- The application follows the Cockpit coding standards and consequently uses React, Patternfly 6 and CSS.
 
 ## Implementation standard.
 
