@@ -1,6 +1,6 @@
 # Cockpit starter-kit - Technical Overview
 
-This document provides a technical overview for applications or plugins that integrate into Cockpit and are prepared with the starter-kit
+This document provides a technical overview for applications or plugins that integrate into Cockpit and are prepared with the starter-kit. Human readable but intended to give AI context.
 
 ## Project Structure
 
@@ -22,7 +22,7 @@ This document provides a technical overview for applications or plugins that int
 ## Architectural Notes
 
 - To allow gettext translations, all user visible strings should be appropriately prefixed by an underscore followed by parentheses enclosing the text, such as _("Text").
-- The application follows the Cockpit coding standards and consequently uses React, Patternfly 6 and CSS.
+- The applications follows the Cockpit coding standards and consequently use React, Patternfly 6 and CSS.
 - All applications support Light and Dark themes and should import cockpit-dark-theme.
 
 ## Implementation standard
