@@ -14,6 +14,7 @@ This document provides a technical overview for applications or plugins that int
 ## Key Scripts
 
 - `git clone https://github.com/cockpit-project/starter-kit.git`: clone the starter-kit repo. If not already done, this should be offered first but only once.
+- `npm run eslint`: check JavaScript/TypeScript code style in .js[x] and .ts[x] files.
 - `npm run eslint:fix`: automatically fix violations of some code style rules.
 - `npm run stylelint`: check CSS style in .css and scss files.
 - `npm run stylelint:fix`: automatically fix violations of some style rules.
