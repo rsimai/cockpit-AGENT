@@ -52,5 +52,6 @@ This document provides a technical overview for applications or plugins that int
 
 ## Regarding Dependencies
 
+- Dependencies include the packages: nodejs, npm, git, cockpit, make.
 - Avoid introducing new external dependencies unless absolutely necessary.
 - If a new dependency is required, state the reason.
