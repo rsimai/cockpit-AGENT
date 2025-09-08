@@ -21,29 +21,30 @@ This document provides a technical overview for applications or plugins that int
 
 ## Architectural Notes
 
-- All user visible strings should be appropriately prefixed for translations
+- To allow gettext translations, all user visible strings should be appropriately prefixed by an underscore followed by parentheses enclosing the text, such as _("Text").
 - The application follows the Cockpit coding standards and consequently uses React, Patternfly 6 and CSS.
+- All applications support Light and Dark themes and should import cockpit-dark-theme.
 
-## Implementation standard.
+## Implementation standard
 
 - Do not over engineer things. Start with the simplest implementation.
 - Always keep security as a first priority. Performance is second.
 - Ask for any clarification rather just guessing things if you are not clear about anything.
 
-## General Instructions:
+## General Instructions
 
 - When generating new code, follow the existing coding style.
 - Prefer functional programming paradigms where appropriate.
 - All code should be compatible with TypeScript 5.0 and Node.js 18+.
 
-## Coding Style:
+## Coding Style
 
 - Use 2 spaces for indentation.
 - Interface names should be prefixed with `I` (e.g., `IUserService`).
 - Private class members should be prefixed with an underscore (`_`).
 - Always use strict equality (`===` and `!==`).
 
-## Regarding Dependencies:
+## Regarding Dependencies
 
 - Avoid introducing new external dependencies unless absolutely necessary.
 - If a new dependency is required, state the reason.
