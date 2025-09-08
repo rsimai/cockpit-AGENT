@@ -4,13 +4,16 @@ This document provides a technical overview for applications or plugins that int
 
 ## Project Structure
 
+- **Upstream Website**: [Cockpit Project](https://cockpit-project.org/)
+- **Upstream Code Repository**: [Cockpit Project Git](https://github.com/cockpit-project/)
+- **Upstream Starter Kit**: [starter-kit](https://github.com/cockpit-project/starter-kit)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Framework**: [React](https://react.dev/)
 - **API**: [Developer Guide](https://cockpit-project.org/guide/latest/development)
 
 ## Key Scripts
 
-- `npm run eslint`: check JavaScript/TypeScript code style in .js[x] and .ts[x] files.
+- `git clone https://github.com/cockpit-project/starter-kit.git`: clone the starter-kit repo. If not already done, this should be offered first but only once.
 - `npm run eslint:fix`: automatically fix violations of some code style rules.
 - `npm run stylelint`: check CSS style in .css and scss files.
 - `npm run stylelint:fix`: automatically fix violations of some style rules.
@@ -39,6 +42,7 @@ This document provides a technical overview for applications or plugins that int
 
 ## Coding Style
 
+- source code is under src, the application is under dist after build.
 - Use 2 spaces for indentation.
 - Interface names should be prefixed with `I` (e.g., `IUserService`).
 - Private class members should be prefixed with an underscore (`_`).
