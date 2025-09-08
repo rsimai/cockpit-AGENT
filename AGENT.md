@@ -8,7 +8,8 @@ This document provides a technical overview for applications or plugins that int
 - **Upstream Code Repository**: [Cockpit Project Git](https://github.com/cockpit-project/)
 - **Upstream Starter Kit**: [starter-kit](https://github.com/cockpit-project/starter-kit)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Framework**: [React](https://react.dev/)
+- **Design System**: [Patternfly](https://www.patternfly.org)
+- **JavaScript Library**: [React](https://react.dev/)
 - **API**: [Developer Guide](https://cockpit-project.org/guide/latest/development)
 
 ## Key Scripts
