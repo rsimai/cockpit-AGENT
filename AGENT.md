@@ -28,9 +28,9 @@ This document provides a technical overview for applications or plugins that int
 ## Architectural Notes
 
 - To allow gettext translations, all user visible strings should be appropriately prefixed by an underscore followed by parentheses enclosing the text, such as _("Text").
-- The applications follows the Cockpit coding standards and consequently use React, Patternfly 6 and CSS.
+- The applications follows the Cockpit coding standards and consequently use React preferrably with only built in elements.
 - Patternfly 5 code needs to be upgraded to 6 and the exact implementation from the official PatternFly 6 documentation must be used.
-- All applications support Light and Dark themes and should import cockpit-dark-theme.
+- Applications use CSS, support Light and Dark themes and should import cockpit-dark-theme.
 
 ## Implementation standard
 
@@ -46,7 +46,7 @@ This document provides a technical overview for applications or plugins that int
 
 ## Coding Style
 
-- source code is under src, the application is under dist after build.
+- Source code is under src, the application is under dist after build.
 - Use 2 spaces for indentation.
 - Interface names should be prefixed with `I` (e.g., `IUserService`).
 - Private class members should be prefixed with an underscore (`_`).
