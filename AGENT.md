@@ -21,8 +21,8 @@ This document provides a technical overview for applications or plugins that int
 - `npm run stylelint:fix`: automatically fix violations of some style rules.
 - `npm run build`: build the files and add them to the dist folder.
 - `make`: check if the project setup is correct.
-- `make devel-install`: link the dist directory to ~/.local/share/cockpit to make the application appear for the user. The command needs to run only once.
-- `make install`: install the application files from dist system wide in /usr/local/share/cockpit/
+- `make devel-install`: link the dist directory to ~/.local/share/cockpit/ to make the application appear for the user. The command needs to run only once.
+- `sudo make install`: install the application files from dist system wide in /usr/local/share/cockpit/
 
 ## Architectural Notes
 
