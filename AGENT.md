@@ -9,6 +9,7 @@ This document provides a technical overview for applications or plugins that int
 - **Upstream Starter Kit**: [starter-kit](https://github.com/cockpit-project/starter-kit)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Design System**: [Patternfly](https://www.patternfly.org)
+- **Design System Upgrades**: [Patternfly 5 to 6 migration](https://www.patternfly.org/get-started/upgrade/)
 - **JavaScript Library**: [React](https://react.dev/)
 - **API**: [Developer Guide](https://cockpit-project.org/guide/latest/development)
 
@@ -27,7 +28,7 @@ This document provides a technical overview for applications or plugins that int
 ## Architectural Notes
 
 - To allow gettext translations, all user visible strings should be appropriately prefixed by an underscore followed by parentheses enclosing the text, such as _("Text").
-- The applications follows the Cockpit coding standards and consequently use React, Patternfly 6 and CSS.
+- The applications follows the Cockpit coding standards and consequently use React, Patternfly 6 and CSS. Patternfly 5 code needs to be upgraded to 6.
 - All applications support Light and Dark themes and should import cockpit-dark-theme.
 
 ## Implementation standard
